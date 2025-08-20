@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Emre\\Desktop\\SampleWebService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|c:\\users\\emre\\desktop\\samplewebservice\\samplewebservice\\migrations\\20250820124537_addcampaign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|solutionrelative:samplewebservice\\migrations\\20250820124537_addcampaign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|c:\\users\\emre\\desktop\\samplewebservice\\samplewebservice\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|solutionrelative:samplewebservice\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|c:\\users\\emre\\desktop\\samplewebservice\\samplewebservice\\models\\page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|solutionrelative:samplewebservice\\models\\page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|c:\\users\\emre\\desktop\\samplewebservice\\samplewebservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|solutionrelative:samplewebservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|c:\\users\\emre\\desktop\\samplewebservice\\samplewebservice\\models\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|solutionrelative:samplewebservice\\models\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|c:\\users\\emre\\desktop\\samplewebservice\\samplewebservice\\models\\usersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,12 +23,8 @@
       "RelativeMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|solutionrelative:samplewebservice\\models\\campaign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|c:\\users\\emre\\desktop\\samplewebservice\\samplewebservice\\models\\page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|solutionrelative:samplewebservice\\models\\page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|c:\\users\\emre\\desktop\\samplewebservice\\samplewebservice\\models\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|solutionrelative:samplewebservice\\models\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|c:\\users\\emre\\desktop\\samplewebservice\\samplewebservice\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|solutionrelative:samplewebservice\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|c:\\users\\emre\\desktop\\samplewebservice\\samplewebservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -53,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|c:\\users\\emre\\desktop\\samplewebservice\\samplewebservice\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|solutionrelative:samplewebservice\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|c:\\users\\emre\\desktop\\samplewebservice\\samplewebservice\\migrations\\20250820112430_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|solutionrelative:samplewebservice\\migrations\\20250820112430_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,19 +70,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20250820124537_AddCampaign.cs",
-              "DocumentMoniker": "C:\\Users\\Emre\\Desktop\\SampleWebService\\SampleWebService\\Migrations\\20250820124537_AddCampaign.cs",
-              "RelativeDocumentMoniker": "SampleWebService\\Migrations\\20250820124537_AddCampaign.cs",
-              "ToolTip": "C:\\Users\\Emre\\Desktop\\SampleWebService\\SampleWebService\\Migrations\\20250820124537_AddCampaign.cs",
-              "RelativeToolTip": "SampleWebService\\Migrations\\20250820124537_AddCampaign.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T12:45:37.278Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Campaign.cs",
               "DocumentMoniker": "C:\\Users\\Emre\\Desktop\\SampleWebService\\SampleWebService\\Models\\Campaign.cs",
@@ -99,7 +78,8 @@
               "RelativeToolTip": "SampleWebService\\Models\\Campaign.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T12:41:59.069Z"
+              "WhenOpened": "2025-08-20T12:41:59.069Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -111,11 +91,12 @@
               "RelativeToolTip": "SampleWebService\\Models\\UsersDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T11:51:01.879Z"
+              "WhenOpened": "2025-08-20T11:51:01.879Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "ProductDto.cs",
               "DocumentMoniker": "C:\\Users\\Emre\\Desktop\\SampleWebService\\SampleWebService\\Models\\ProductDto.cs",
               "RelativeDocumentMoniker": "SampleWebService\\Models\\ProductDto.cs",
@@ -123,36 +104,25 @@
               "RelativeToolTip": "SampleWebService\\Models\\ProductDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T11:50:41.18Z"
+              "WhenOpened": "2025-08-20T11:50:41.18Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "20250820112430_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\Emre\\Desktop\\SampleWebService\\SampleWebService\\Migrations\\20250820112430_InitialCreate.cs",
-              "RelativeDocumentMoniker": "SampleWebService\\Migrations\\20250820112430_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\Emre\\Desktop\\SampleWebService\\SampleWebService\\Migrations\\20250820112430_InitialCreate.cs",
-              "RelativeToolTip": "SampleWebService\\Migrations\\20250820112430_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T11:24:30.955Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Emre\\Desktop\\SampleWebService\\SampleWebService\\Program.cs",
               "RelativeDocumentMoniker": "SampleWebService\\Program.cs",
               "ToolTip": "C:\\Users\\Emre\\Desktop\\SampleWebService\\SampleWebService\\Program.cs",
               "RelativeToolTip": "SampleWebService\\Program.cs",
-              "ViewState": "AgIAABkBAAAAAAAAAAAmwBcBAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAYwD0AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-20T11:14:24.981Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Emre\\Desktop\\SampleWebService\\SampleWebService\\appsettings.json",
               "RelativeDocumentMoniker": "SampleWebService\\appsettings.json",
@@ -164,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Emre\\Desktop\\SampleWebService\\SampleWebService\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "SampleWebService\\Data\\AppDbContext.cs",
@@ -172,12 +142,11 @@
               "RelativeToolTip": "SampleWebService\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T11:09:21.844Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-20T11:09:21.844Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "UserGroup.cs",
               "DocumentMoniker": "C:\\Users\\Emre\\Desktop\\SampleWebService\\SampleWebService\\Models\\UserGroup.cs",
               "RelativeDocumentMoniker": "SampleWebService\\Models\\UserGroup.cs",
@@ -189,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "Users.cs",
               "DocumentMoniker": "C:\\Users\\Emre\\Desktop\\SampleWebService\\SampleWebService\\Models\\Users.cs",
               "RelativeDocumentMoniker": "SampleWebService\\Models\\Users.cs",
@@ -201,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "ProductBrand.cs",
               "DocumentMoniker": "C:\\Users\\Emre\\Desktop\\SampleWebService\\SampleWebService\\Models\\ProductBrand.cs",
               "RelativeDocumentMoniker": "SampleWebService\\Models\\ProductBrand.cs",
@@ -213,7 +182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "ProductGroup.cs",
               "DocumentMoniker": "C:\\Users\\Emre\\Desktop\\SampleWebService\\SampleWebService\\Models\\ProductGroup.cs",
               "RelativeDocumentMoniker": "SampleWebService\\Models\\ProductGroup.cs",
@@ -225,7 +194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\Emre\\Desktop\\SampleWebService\\SampleWebService\\Models\\Product.cs",
               "RelativeDocumentMoniker": "SampleWebService\\Models\\Product.cs",
@@ -237,15 +206,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Page.cs",
               "DocumentMoniker": "C:\\Users\\Emre\\Desktop\\SampleWebService\\SampleWebService\\Models\\Page.cs",
               "RelativeDocumentMoniker": "SampleWebService\\Models\\Page.cs",
               "ToolTip": "C:\\Users\\Emre\\Desktop\\SampleWebService\\SampleWebService\\Models\\Page.cs",
               "RelativeToolTip": "SampleWebService\\Models\\Page.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T11:07:06.329Z"
+              "WhenOpened": "2025-08-20T11:07:06.329Z",
+              "EditorCaption": ""
             }
           ]
         }

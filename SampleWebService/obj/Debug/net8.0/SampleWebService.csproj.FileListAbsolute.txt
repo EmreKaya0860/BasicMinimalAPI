@@ -135,3 +135,4 @@ C:\Users\Emre\Desktop\SampleWebService\SampleWebService\obj\Debug\net8.0\refint\
 C:\Users\Emre\Desktop\SampleWebService\SampleWebService\obj\Debug\net8.0\SampleWebService.pdb
 C:\Users\Emre\Desktop\SampleWebService\SampleWebService\obj\Debug\net8.0\SampleWebService.genruntimeconfig.cache
 C:\Users\Emre\Desktop\SampleWebService\SampleWebService\obj\Debug\net8.0\ref\SampleWebService.dll
+C:\Users\Emre\Desktop\SampleWebService\SampleWebService\obj\Debug\net8.0\SampleWebService.sourcelink.json

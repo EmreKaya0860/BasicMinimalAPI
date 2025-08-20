@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using SampleWebService.Data;
 using SampleWebService.Models;
+using System.Text.Json;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,38 +14,66 @@ builder.Services.AddControllers().AddJsonOptions(x =>
     x.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles;
 });
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", policy =>
+    {
+        policy.AllowAnyOrigin()
+              .AllowAnyMethod()
+              .AllowAnyHeader();
+    });
+});
+
 var app = builder.Build();
 
 app.MapGet("/", () => "CRUD API Çalýþýyor");
 
 // ------------------- PAGE CRUD -------------------
-app.MapGet("/pages", async (AppDbContext db) => await db.Pages.ToListAsync());
-app.MapGet("/pages/{id}", async (int id, AppDbContext db) => await db.Pages.FindAsync(id));
 app.MapPost("/pages", async (Page page, AppDbContext db) =>
 {
+    if (page.JsonData != null)
+        page.Data = JsonSerializer.Serialize(page.JsonData);
+
     db.Pages.Add(page);
     await db.SaveChangesAsync();
     return Results.Created($"/pages/{page.Id}", page);
 });
+
 app.MapPut("/pages/{id}", async (int id, Page input, AppDbContext db) =>
 {
     var page = await db.Pages.FindAsync(id);
     if (page is null) return Results.NotFound();
 
     page.PageName = input.PageName;
-    page.Data = input.Data;
+
+    if (input.JsonData != null)
+        page.Data = JsonSerializer.Serialize(input.JsonData);
 
     await db.SaveChangesAsync();
     return Results.Ok(page);
 });
-app.MapDelete("/pages/{id}", async (int id, AppDbContext db) =>
+
+app.MapGet("/pages", async (AppDbContext db) =>
+{
+    var pages = await db.Pages.ToListAsync();
+    return pages.Select(p => new
+    {
+        p.Id,
+        p.PageName,
+        data = p.JsonData // JSON olarak dön
+    });
+});
+
+app.MapGet("/pages/{id}", async (int id, AppDbContext db) =>
 {
     var page = await db.Pages.FindAsync(id);
     if (page is null) return Results.NotFound();
-
-    db.Pages.Remove(page);
-    await db.SaveChangesAsync();
-    return Results.NoContent();
+    return Results.Ok(new
+    {
+        page.Id,
+        page.PageName,
+        data = page.JsonData
+    });
 });
 
 // ------------------- PRODUCTS -------------------
@@ -313,5 +342,6 @@ app.MapDelete("/campaigns/{id}", async (int id, AppDbContext db) =>
     return Results.NoContent();
 });
 
+app.UseCors("AllowAll");
 
 app.Run();
