@@ -247,7 +247,8 @@ app.MapGet("/users", async (AppDbContext db) =>
             Surname = u.Surname,
             Phone = u.Phone,
             Username = u.Username,
-            UserGroupName = u.UserGroup.Name
+            UserGroupName = u.UserGroup.Name,
+            Password = u.Password
         }).ToListAsync();
 
     return Results.Ok(users);
@@ -265,7 +266,8 @@ app.MapGet("/users/{id}", async (int id, AppDbContext db) =>
             Surname = u.Surname,
             Phone = u.Phone,
             Username = u.Username,
-            UserGroupName = u.UserGroup.Name
+            UserGroupName = u.UserGroup.Name,
+            Password = u.Password
         }).FirstOrDefaultAsync();
 
     return user is null ? Results.NotFound() : Results.Ok(user);
