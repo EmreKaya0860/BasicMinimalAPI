@@ -55,7 +55,7 @@ app.MapPut("/pages/{id}", async (int id, Page input, AppDbContext db) =>
 
 app.MapGet("/pages", async (AppDbContext db) =>
 {
-    var pages = await db.Pages.ToListAsync();
+    var pages = await db.Pages.OrderByDescending(d => d.Id).ToListAsync();
     return pages.Select(p => new
     {
         p.Id,
@@ -82,6 +82,7 @@ app.MapGet("/products", async (AppDbContext db) =>
     var products = await db.Products
         .Include(p => p.ProductBrand)
         .Include(p => p.ProductGroup)
+        .OrderByDescending(d => d.Id)
         .Select(p => new ProductDto
         {
             Id = p.Id,
@@ -150,7 +151,7 @@ app.MapDelete("/products/{id}", async (int id, AppDbContext db) =>
 });
 
 // ------------------- PRODUCTGROUP CRUD -------------------
-app.MapGet("/productgroups", async (AppDbContext db) => await db.ProductGroups.ToListAsync());
+app.MapGet("/productgroups", async (AppDbContext db) => await db.ProductGroups.OrderByDescending(d => d.Id).ToListAsync());
 app.MapGet("/productgroups/{id}", async (int id, AppDbContext db) => await db.ProductGroups.FindAsync(id));
 app.MapPost("/productgroups", async (ProductGroup group, AppDbContext db) =>
 {
@@ -178,7 +179,7 @@ app.MapDelete("/productgroups/{id}", async (int id, AppDbContext db) =>
 });
 
 // ------------------- PRODUCTBRAND CRUD -------------------
-app.MapGet("/productbrands", async (AppDbContext db) => await db.ProductBrands.ToListAsync());
+app.MapGet("/productbrands", async (AppDbContext db) => await db.ProductBrands.OrderByDescending(d => d.Id).ToListAsync());
 app.MapGet("/productbrands/{id}", async (int id, AppDbContext db) => await db.ProductBrands.FindAsync(id));
 app.MapPost("/productbrands", async (ProductBrand brand, AppDbContext db) =>
 {
@@ -206,7 +207,7 @@ app.MapDelete("/productbrands/{id}", async (int id, AppDbContext db) =>
 });
 
 // ------------------- USERGROUP CRUD -------------------
-app.MapGet("/usergroups", async (AppDbContext db) => await db.UserGroups.ToListAsync());
+app.MapGet("/usergroups", async (AppDbContext db) => await db.UserGroups.OrderByDescending(d => d.Id).ToListAsync());
 app.MapGet("/usergroups/{id}", async (int id, AppDbContext db) => await db.UserGroups.FindAsync(id));
 app.MapPost("/usergroups", async (UserGroup group, AppDbContext db) =>
 {
@@ -238,6 +239,7 @@ app.MapGet("/users", async (AppDbContext db) =>
 {
     var users = await db.Users
         .Include(u => u.UserGroup)
+        .OrderByDescending(d => d.Id)
         .Select(u => new UsersDto
         {
             Id = u.Id,
@@ -303,7 +305,7 @@ app.MapDelete("/users/{id}", async (int id, AppDbContext db) =>
 });
 
 // ------------------- CAMPAIGN CRUD -------------------
-app.MapGet("/campaigns", async (AppDbContext db) => await db.Campaigns.ToListAsync());
+app.MapGet("/campaigns", async (AppDbContext db) => await db.Campaigns.OrderByDescending(d => d.Id).ToListAsync());
 
 app.MapGet("/campaigns/{id}", async (int id, AppDbContext db) =>
     await db.Campaigns.FindAsync(id) is Campaign c

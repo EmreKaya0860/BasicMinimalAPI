@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Emre\\Desktop\\SampleWebService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|c:\\users\\emre\\desktop\\samplewebservice\\samplewebservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|solutionrelative:samplewebservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|c:\\users\\emre\\desktop\\samplewebservice\\samplewebservice\\models\\page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|solutionrelative:samplewebservice\\models\\page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|c:\\users\\emre\\desktop\\samplewebservice\\samplewebservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|solutionrelative:samplewebservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|c:\\users\\emre\\desktop\\samplewebservice\\samplewebservice\\models\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -109,7 +109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Emre\\Desktop\\SampleWebService\\SampleWebService\\Program.cs",
               "RelativeDocumentMoniker": "SampleWebService\\Program.cs",
@@ -206,13 +206,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Page.cs",
               "DocumentMoniker": "C:\\Users\\Emre\\Desktop\\SampleWebService\\SampleWebService\\Models\\Page.cs",
               "RelativeDocumentMoniker": "SampleWebService\\Models\\Page.cs",
               "ToolTip": "C:\\Users\\Emre\\Desktop\\SampleWebService\\SampleWebService\\Models\\Page.cs",
               "RelativeToolTip": "SampleWebService\\Models\\Page.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-20T11:07:06.329Z",
               "EditorCaption": ""

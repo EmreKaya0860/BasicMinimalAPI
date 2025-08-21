@@ -78,8 +78,7 @@
               "RelativeToolTip": "SampleWebService\\Models\\Campaign.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T12:41:59.069Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-20T12:41:59.069Z"
             },
             {
               "$type": "Document",
@@ -91,8 +90,7 @@
               "RelativeToolTip": "SampleWebService\\Models\\UsersDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T11:51:01.879Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-20T11:51:01.879Z"
             },
             {
               "$type": "Document",
@@ -104,8 +102,7 @@
               "RelativeToolTip": "SampleWebService\\Models\\ProductDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T11:50:41.18Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-20T11:50:41.18Z"
             },
             {
               "$type": "Document",
@@ -117,8 +114,7 @@
               "RelativeToolTip": "SampleWebService\\Program.cs",
               "ViewState": "AgIAADEAAAAAAAAAAAAYwD0AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T11:14:24.981Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-20T11:14:24.981Z"
             },
             {
               "$type": "Document",
@@ -212,7 +208,7 @@
               "RelativeDocumentMoniker": "SampleWebService\\Models\\Page.cs",
               "ToolTip": "C:\\Users\\Emre\\Desktop\\SampleWebService\\SampleWebService\\Models\\Page.cs",
               "RelativeToolTip": "SampleWebService\\Models\\Page.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-20T11:07:06.329Z",
               "EditorCaption": ""
