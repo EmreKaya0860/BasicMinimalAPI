@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using SampleWebService.Data;
 using SampleWebService.Models;
+using System.ComponentModel;
 using System.Text.Json;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -90,6 +91,8 @@ app.MapGet("/products", async (AppDbContext db) =>
             Image = p.Image,
             Price = p.Price,
             Description = p.Description,
+            ProductBrandId = p.ProductBrand.Id,
+            ProductGroupId = p.ProductGroup.Id,
             ProductBrandName = p.ProductBrand.Name,
             ProductGroupName = p.ProductGroup.Name
         }).ToListAsync();
@@ -110,11 +113,26 @@ app.MapGet("/products/{id}", async (int id, AppDbContext db) =>
             Image = p.Image,
             Price = p.Price,
             Description = p.Description,
+            ProductBrandId = p.ProductBrand.Id,
+            ProductGroupId = p.ProductGroup.Id,
             ProductBrandName = p.ProductBrand.Name,
             ProductGroupName = p.ProductGroup.Name
         }).FirstOrDefaultAsync();
 
     return p is null ? Results.NotFound() : Results.Ok(p);
+});
+
+app.MapGet("/productsEntities", () =>
+{
+    var props = typeof(ProductDto).GetProperties()
+        .Select(p => new
+        {
+            Name = char.ToLowerInvariant(p.Name[0]) + p.Name.Substring(1),
+            Type = Nullable.GetUnderlyingType(p.PropertyType)?.Name ?? p.PropertyType.Name,
+            IsNullable = Nullable.GetUnderlyingType(p.PropertyType) != null
+        });
+
+    return Results.Ok(props);
 });
 
 app.MapPost("/products", async (Product product, AppDbContext db) =>
@@ -248,7 +266,8 @@ app.MapGet("/users", async (AppDbContext db) =>
             Phone = u.Phone,
             Username = u.Username,
             UserGroupName = u.UserGroup.Name,
-            Password = u.Password
+            Password = u.Password,
+            UserGroupId = u.UserGroup.Id
         }).ToListAsync();
 
     return Results.Ok(users);
@@ -267,10 +286,32 @@ app.MapGet("/users/{id}", async (int id, AppDbContext db) =>
             Phone = u.Phone,
             Username = u.Username,
             UserGroupName = u.UserGroup.Name,
-            Password = u.Password
+            Password = u.Password,
+            UserGroupId = u.UserGroup.Id
         }).FirstOrDefaultAsync();
 
     return user is null ? Results.NotFound() : Results.Ok(user);
+});
+
+app.MapGet("/usersEntities", () =>
+{
+    var props = typeof(UsersDto).GetProperties()
+        .Select(p =>
+        {
+            var meta = p.GetCustomAttributes(typeof(FieldMetadataAttribute), false)
+                        .FirstOrDefault() as FieldMetadataAttribute;
+
+            return new
+            {
+                Name = meta?.Label ?? p.Name,
+                Field = char.ToLowerInvariant(p.Name[0]) + p.Name.Substring(1),
+                Type = meta?.InputType ?? "text",
+                Required = meta?.Required ?? false,
+                ApiUrl = meta?.ApiUrl ?? ""
+            };
+        });
+
+    return Results.Ok(props);
 });
 
 app.MapPost("/users", async (Users user, AppDbContext db) =>

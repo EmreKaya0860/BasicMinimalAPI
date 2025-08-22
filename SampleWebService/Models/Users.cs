@@ -1,8 +1,12 @@
-﻿namespace SampleWebService.Models
+﻿using System.ComponentModel;
+
+namespace SampleWebService.Models
 {
     public class Users
     {
         public int Id { get; set; }
+
+        [DisplayName("Ad")]
         public string Name { get; set; }
         public string Surname { get; set; }
         public string Phone { get; set; }

@@ -19,7 +19,7 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_33",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_35",
     "RelativePath": "campaigns",
     "HttpMethod": "GET",
     "IsController": false,
@@ -37,7 +37,7 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_35",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_37",
     "RelativePath": "campaigns",
     "HttpMethod": "POST",
     "IsController": false,
@@ -59,7 +59,7 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_34",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_36",
     "RelativePath": "campaigns/{id}",
     "HttpMethod": "GET",
     "IsController": false,
@@ -81,7 +81,7 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_36",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_38",
     "RelativePath": "campaigns/{id}",
     "HttpMethod": "PUT",
     "IsController": false,
@@ -108,7 +108,7 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_37",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_39",
     "RelativePath": "campaigns/{id}",
     "HttpMethod": "DELETE",
     "IsController": false,
@@ -219,7 +219,7 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_18",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_19",
     "RelativePath": "productbrands",
     "HttpMethod": "GET",
     "IsController": false,
@@ -237,7 +237,7 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_20",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_21",
     "RelativePath": "productbrands",
     "HttpMethod": "POST",
     "IsController": false,
@@ -259,7 +259,7 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_19",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_20",
     "RelativePath": "productbrands/{id}",
     "HttpMethod": "GET",
     "IsController": false,
@@ -283,7 +283,7 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_21",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_22",
     "RelativePath": "productbrands/{id}",
     "HttpMethod": "PUT",
     "IsController": false,
@@ -310,7 +310,7 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_22",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_23",
     "RelativePath": "productbrands/{id}",
     "HttpMethod": "DELETE",
     "IsController": false,
@@ -332,7 +332,7 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_13",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_14",
     "RelativePath": "productgroups",
     "HttpMethod": "GET",
     "IsController": false,
@@ -350,7 +350,7 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_15",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_16",
     "RelativePath": "productgroups",
     "HttpMethod": "POST",
     "IsController": false,
@@ -372,7 +372,7 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_14",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_15",
     "RelativePath": "productgroups/{id}",
     "HttpMethod": "GET",
     "IsController": false,
@@ -396,7 +396,7 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_16",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_17",
     "RelativePath": "productgroups/{id}",
     "HttpMethod": "PUT",
     "IsController": false,
@@ -423,7 +423,7 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_17",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_18",
     "RelativePath": "productgroups/{id}",
     "HttpMethod": "DELETE",
     "IsController": false,
@@ -461,7 +461,7 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_10",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_11",
     "RelativePath": "products",
     "HttpMethod": "POST",
     "IsController": false,
@@ -505,7 +505,7 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_11",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_12",
     "RelativePath": "products/{id}",
     "HttpMethod": "PUT",
     "IsController": false,
@@ -532,7 +532,7 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_12",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_13",
     "RelativePath": "products/{id}",
     "HttpMethod": "DELETE",
     "IsController": false,
@@ -554,7 +554,23 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_23",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_10",
+    "RelativePath": "productsEntities",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Program\u002B\u003C\u003Ec",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_24",
     "RelativePath": "usergroups",
     "HttpMethod": "GET",
     "IsController": false,
@@ -572,7 +588,7 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_25",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_26",
     "RelativePath": "usergroups",
     "HttpMethod": "POST",
     "IsController": false,
@@ -594,7 +610,7 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_24",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_25",
     "RelativePath": "usergroups/{id}",
     "HttpMethod": "GET",
     "IsController": false,
@@ -618,7 +634,7 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_26",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_27",
     "RelativePath": "usergroups/{id}",
     "HttpMethod": "PUT",
     "IsController": false,
@@ -645,7 +661,7 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_27",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_28",
     "RelativePath": "usergroups/{id}",
     "HttpMethod": "DELETE",
     "IsController": false,
@@ -667,7 +683,7 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_28",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_29",
     "RelativePath": "users",
     "HttpMethod": "GET",
     "IsController": false,
@@ -683,7 +699,7 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_30",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_32",
     "RelativePath": "users",
     "HttpMethod": "POST",
     "IsController": false,
@@ -705,7 +721,7 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_29",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_30",
     "RelativePath": "users/{id}",
     "HttpMethod": "GET",
     "IsController": false,
@@ -727,7 +743,7 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_31",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_33",
     "RelativePath": "users/{id}",
     "HttpMethod": "PUT",
     "IsController": false,
@@ -754,7 +770,7 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_32",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_34",
     "RelativePath": "users/{id}",
     "HttpMethod": "DELETE",
     "IsController": false,
@@ -766,6 +782,22 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Program\u002B\u003C\u003Ec",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_31",
+    "RelativePath": "usersEntities",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": [
       {
         "Type": "System.Void",
