@@ -15,6 +15,30 @@
       "RelativeMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|solutionrelative:samplewebservice\\models\\fieldmetadataattribute .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|c:\\users\\emre\\desktop\\samplewebservice\\samplewebservice\\models\\campaign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|solutionrelative:samplewebservice\\models\\campaign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|c:\\users\\emre\\desktop\\samplewebservice\\samplewebservice\\models\\page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|solutionrelative:samplewebservice\\models\\page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|c:\\users\\emre\\desktop\\samplewebservice\\samplewebservice\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|solutionrelative:samplewebservice\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|c:\\users\\emre\\desktop\\samplewebservice\\samplewebservice\\models\\productbrand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|solutionrelative:samplewebservice\\models\\productbrand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|c:\\users\\emre\\desktop\\samplewebservice\\samplewebservice\\models\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|solutionrelative:samplewebservice\\models\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|c:\\users\\emre\\desktop\\samplewebservice\\samplewebservice\\models\\productgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|solutionrelative:samplewebservice\\models\\productgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|c:\\users\\emre\\desktop\\samplewebservice\\samplewebservice\\models\\usergroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|solutionrelative:samplewebservice\\models\\usergroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,32 +51,8 @@
       "RelativeMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|solutionrelative:samplewebservice\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|c:\\users\\emre\\desktop\\samplewebservice\\samplewebservice\\models\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|solutionrelative:samplewebservice\\models\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|c:\\users\\emre\\desktop\\samplewebservice\\samplewebservice\\models\\productbrand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|solutionrelative:samplewebservice\\models\\productbrand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|c:\\users\\emre\\desktop\\samplewebservice\\samplewebservice\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|solutionrelative:samplewebservice\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|c:\\users\\emre\\desktop\\samplewebservice\\samplewebservice\\models\\page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|solutionrelative:samplewebservice\\models\\page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|c:\\users\\emre\\desktop\\samplewebservice\\samplewebservice\\models\\campaign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|solutionrelative:samplewebservice\\models\\campaign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|c:\\users\\emre\\desktop\\samplewebservice\\samplewebservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|solutionrelative:samplewebservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|c:\\users\\emre\\desktop\\samplewebservice\\samplewebservice\\models\\productgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BBA37EE-A105-4A45-A94E-EB48F4C1548E}|SampleWebService\\SampleWebService.csproj|solutionrelative:samplewebservice\\models\\productgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -80,7 +80,7 @@
               "RelativeDocumentMoniker": "SampleWebService\\Models\\FieldMetadataAttribute .cs",
               "ToolTip": "C:\\Users\\Emre\\Desktop\\SampleWebService\\SampleWebService\\Models\\FieldMetadataAttribute .cs",
               "RelativeToolTip": "SampleWebService\\Models\\FieldMetadataAttribute .cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-22T14:31:40.182Z",
               "EditorCaption": ""
@@ -93,14 +93,14 @@
               "RelativeDocumentMoniker": "SampleWebService\\Models\\UsersDto.cs",
               "ToolTip": "C:\\Users\\Emre\\Desktop\\SampleWebService\\SampleWebService\\Models\\UsersDto.cs",
               "RelativeToolTip": "SampleWebService\\Models\\UsersDto.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-20T11:51:01.879Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
               "Title": "Campaign.cs",
               "DocumentMoniker": "C:\\Users\\Emre\\Desktop\\SampleWebService\\SampleWebService\\Models\\Campaign.cs",
               "RelativeDocumentMoniker": "SampleWebService\\Models\\Campaign.cs",
@@ -108,11 +108,12 @@
               "RelativeToolTip": "SampleWebService\\Models\\Campaign.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T12:41:59.069Z"
+              "WhenOpened": "2025-08-20T12:41:59.069Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ProductDto.cs",
               "DocumentMoniker": "C:\\Users\\Emre\\Desktop\\SampleWebService\\SampleWebService\\Models\\ProductDto.cs",
               "RelativeDocumentMoniker": "SampleWebService\\Models\\ProductDto.cs",
@@ -131,14 +132,14 @@
               "RelativeDocumentMoniker": "SampleWebService\\Program.cs",
               "ToolTip": "C:\\Users\\Emre\\Desktop\\SampleWebService\\SampleWebService\\Program.cs",
               "RelativeToolTip": "SampleWebService\\Program.cs",
-              "ViewState": "AgIAAB4BAAAAAAAAAAAAADYBAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAB4BAAAAAAAAAAAMwDYBAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-20T11:14:24.981Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Emre\\Desktop\\SampleWebService\\SampleWebService\\appsettings.json",
               "RelativeDocumentMoniker": "SampleWebService\\appsettings.json",
@@ -150,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Emre\\Desktop\\SampleWebService\\SampleWebService\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "SampleWebService\\Data\\AppDbContext.cs",
@@ -158,12 +159,11 @@
               "RelativeToolTip": "SampleWebService\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T11:09:21.844Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-20T11:09:21.844Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "UserGroup.cs",
               "DocumentMoniker": "C:\\Users\\Emre\\Desktop\\SampleWebService\\SampleWebService\\Models\\UserGroup.cs",
               "RelativeDocumentMoniker": "SampleWebService\\Models\\UserGroup.cs",
@@ -176,7 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "Users.cs",
               "DocumentMoniker": "C:\\Users\\Emre\\Desktop\\SampleWebService\\SampleWebService\\Models\\Users.cs",
               "RelativeDocumentMoniker": "SampleWebService\\Models\\Users.cs",
@@ -189,7 +189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "ProductBrand.cs",
               "DocumentMoniker": "C:\\Users\\Emre\\Desktop\\SampleWebService\\SampleWebService\\Models\\ProductBrand.cs",
               "RelativeDocumentMoniker": "SampleWebService\\Models\\ProductBrand.cs",
@@ -202,7 +202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 8,
               "Title": "ProductGroup.cs",
               "DocumentMoniker": "C:\\Users\\Emre\\Desktop\\SampleWebService\\SampleWebService\\Models\\ProductGroup.cs",
               "RelativeDocumentMoniker": "SampleWebService\\Models\\ProductGroup.cs",
@@ -210,11 +210,12 @@
               "RelativeToolTip": "SampleWebService\\Models\\ProductGroup.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T11:07:50.787Z"
+              "WhenOpened": "2025-08-20T11:07:50.787Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\Emre\\Desktop\\SampleWebService\\SampleWebService\\Models\\Product.cs",
               "RelativeDocumentMoniker": "SampleWebService\\Models\\Product.cs",
@@ -227,13 +228,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "Page.cs",
               "DocumentMoniker": "C:\\Users\\Emre\\Desktop\\SampleWebService\\SampleWebService\\Models\\Page.cs",
               "RelativeDocumentMoniker": "SampleWebService\\Models\\Page.cs",
               "ToolTip": "C:\\Users\\Emre\\Desktop\\SampleWebService\\SampleWebService\\Models\\Page.cs",
               "RelativeToolTip": "SampleWebService\\Models\\Page.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-20T11:07:06.329Z",
               "EditorCaption": ""

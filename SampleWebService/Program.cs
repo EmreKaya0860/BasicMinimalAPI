@@ -307,7 +307,9 @@ app.MapGet("/usersEntities", () =>
                 Field = char.ToLowerInvariant(p.Name[0]) + p.Name.Substring(1),
                 Type = meta?.InputType ?? "text",
                 Required = meta?.Required ?? false,
-                ApiUrl = meta?.ApiUrl ?? ""
+                ApiEndpoint = meta?.ApiUrl ?? "",
+                UpperItem = meta?.UpperItem ?? "",
+                OnlyTable = meta?.OnlyTable ?? false
             };
         });
 

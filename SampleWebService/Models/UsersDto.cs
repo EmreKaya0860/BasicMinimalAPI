@@ -21,7 +21,7 @@ namespace SampleWebService.Models
         [FieldMetadata("Kullanıcı Adı", "text", true)]
         public string Username { get; set; }
 
-        [FieldMetadata("Grup", "select", true, "https://localhost:7116/usergroups")]
+        [FieldMetadata("Grup Id", "select", true, "https://localhost:7116/usergroups", upperItem: "userGroupName", onlyTable: true)]
         public int UserGroupId { get; set; }
 
         [FieldMetadata("Grup Adı", "text")]
